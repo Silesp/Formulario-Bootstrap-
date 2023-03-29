@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body{
+    background-color: #22193F;
+    font-family: 'Nunito', sans-serif;
+    background-image: url(Imágenes/ondas.svg);
+    background-repeat: no-repeat;
+    background-size: 1370px;
+    background-position: center bottom;
+    margin-bottom: 148px;
+}
+
+
+.img1-form{
+    width: 400px;
+}
+
+.flex-img{
+    background-image: url(Imágenes/img-login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   }
+
+   @media(min-width:768px){
+    .flex-img{
+        height: auto;
+        
+    }
+   }
+
+   @media(min-width:576px){
+    .flex-img{
+        height: auto;
+        
+    }
+   }
+
+   .logo{
+    width: 35%;
+   }
+
+  .container {
+    background-color: white;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 158px;
+    
+   }
+
+
+   .Titulo{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif ;
+    padding-top: 40px;
+    color:  #22193F;
+    margin-inline-start: 20px;
+}
+
+
+    .form-outer{
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+.form-control{
+   
+    border-radius: 85px;
+    border-color: #C4C4C4;
+    font-size: 80%;
+    display: flex;
+    }
+
+
+.form-input{
+    position: relative;
+    display: block;
+    font-family: 'Nunito', bold;
+    width: 90%;
+    margin: 10px 0;
+    margin-inline-start: 20px;
+}
+
+input{
+    text-align: left;
+    font-size: 16px;
+    
+  
+}
+
+.contraseña{
+    color: #E21982;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+    margin-inline-end: 25px;
+    margin-top: none;
+}
+
+.contraseña{
+    transition-duration: 0.4s;
+}
+
+.contraseña:hover{
+    color: #22193F;
+}
+
+.icon{
+    position: absolute;
+    left: 5px;
+    top: 0;
+    color: #6A2A83;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 16px;
+    
+}
+
+.btn-primary {
+    color: white;
+    background-color: #E21982;
+    border-radius: 85px;
+    border-color: #E21982;
+    font-size: 75%;
+    width: 90%;
+    margin-bottom: 45px;
+    margin-inline-start: 20px;
+    font-size: 16px;
+    font-family: 'Nunito', 'regular';
+     }
+
+
+.btn {
+        transition-duration: 0.4s;
+      }
+      
+.btn:hover {
+    background-color: #22193F;
+    border-color: #22193F;
+      }
+      
+    
+    /*#pie-pagina{
+        background-image: url(Imágenes/ondas.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        height: 25rem;
+       
+             
+    }
+
+   
